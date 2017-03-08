@@ -17,7 +17,8 @@ Elevens Lab
 
 # Activity 3
 
-1)public static string flip() {
+1)
+public static string flip() {
   if (Math.random() > 0.33) {
     return "head";
   }
@@ -25,8 +26,8 @@ Elevens Lab
     return "tails";
   }
 }
-2)
 
+2)
 public static boolean arePermutations(int[] a, int[] b){
     for(int i = 0; i < a.length; i++){
         boolean test1 = false;
