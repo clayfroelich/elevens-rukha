@@ -45,3 +45,22 @@ public static boolean arePermutations(int[] a, int[] b){
 }
 
 3) 1, 2, 2, 2
+
+# Activity 5
+
+Buggy1:
+Constructor or Method (write method name):
+Describe a Possible Code Error:
+A possible error code was the isEmpty method had a less than sign instead of an equal sign.
+
+Buggy2:
+A possible error code was the deck method within the for loop the variable was j=1 and not 0. It wasn't checking every possible option.
+
+Buggy3:
+A possible error code was the deck shuffle method was that K was < 0 instead of K > 0 and couldn't complete the loop.
+
+Buggy4:
+A possible error code was the isEmpty method had a size-- before the if statement.
+
+Buggy5:
+A possible error code was the isEmpty method had a < and should be a ==.
