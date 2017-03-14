@@ -78,10 +78,10 @@ public class Deck {
 	 *         previously dealt.
 	 */
 	public Card deal() {
-		size--; // BUG: this statement should follow the isEmpty check
 		if (isEmpty()) {
 			return null;
 		}
+		size--;
 		Card c = cards.get(size);
 		return c;
 	}
