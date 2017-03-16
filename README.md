@@ -75,4 +75,35 @@ A possible error code was the isEmpty method had a < and should be a ==.
 
 3) This game does not involve any strategy since none of the pairs of cards that add to eleven overlap, thus it is pure luck based on which cards are drawn everytime one replaces a pair.
 
+# Activity 7
+
+1) A deck of cards
+
+2)
+
+1. Create new game
+2. Check if there are at least 9 cards remaining in the deck
+3. If so, draw 9 cards. Otherwise draw the rest of the cards in the deck.
+4. Look for a set of Jack, Queen, and King. If it exists, replace the three cards.
+5. Look for a set of two cards that adds to 11. If it exists, replace the two cards.
+6. If nothing was replaced in the last turn, then the game is lost.
+7. Repeat steps 2-6 until there are no cards left remaining in the deck or on the board.
+8. Game is won.
+3) Yes
+
+4)
+
+a. dealMyCards is called in the newGame() method and in the constructor when a new ElevensBoard is instantiated.
+
+b. anotherPlayIsPossible(), isLegal()
+
+c. 0, 1, 3, 6, 7
+
+d.
+
+for (Integer i : cIndexes) {
+  System.out.println(board.cards[i].toString());
+}
+e. anotherPlayIsPossible()
+
 
